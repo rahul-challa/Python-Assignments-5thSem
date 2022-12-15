@@ -2,7 +2,7 @@
 Write a function that takes a list of numbers as input from the user and produces the corresponding
 cumulative list where each element in the list at index i is the sum of elements at index j <= i.
 '''
-def rock(list):
+def sum(list):
     result = []
     sum = 0
     for i in list:
@@ -15,6 +15,6 @@ def main():
     for j in range (size):
         k = int(input("Enter the element :"))
         list.append(k)
-    print(rock(list))
+    print(sum(list))
 if __name__=='__main__':
     main()
